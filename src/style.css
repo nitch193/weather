@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+html {
+  color: white;
+  background-color: #302d2d;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+nav {
+  width: 100%;
+  font-size: 2em;
+  padding: 8px 0;
+  text-align: center;
+  background-color: #aa96da;
+}
+.parent {
+  width: 300px;
+  height: 250px;
+  background-color: #aa96da;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+}
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.img {
+  flex: 1;
+}
+.description {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.temp {
+  font-size: 2em;
+}
+small {
+  margin: 8px;
+  display: block;
+  font-size: 1em;
+}
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.cityName {
+  padding: 4px;
+  text-align: center;
+  height: auto;
+  font-size: 1.4em;
+}
+.form {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+#city {
+  flex: 1;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 2px;
+  font-size: 1em;
+}
+#search {
+  all: unset;
+  cursor: pointer;
+  flex: 1;
+  outline: white;
+  border: white 1px solid;
+  border-radius: 4px;
+  color: white;
+  height: 34px;
+  padding: 0 8px;
+}
+#search:hover {
+  background-color: #aa96da;
+}
