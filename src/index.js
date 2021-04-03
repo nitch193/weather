@@ -2,9 +2,9 @@ import "./style.css";
 const cityInput = document.querySelector("#city");
 const searchBtn = document.getElementById("search");
 
-const API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+const API_KEY = "69003f9493c8fbbb985fe99870442b25";
 const baseURL = "https://api.openweathermap.org/data/2.5/weather?q=";
-const imageURL = "http://openweathermap.org/img/wn/"; //10d@2x.png
+const imageURL = "https://openweathermap.org/img/wn/"; //10d@2x.png
 const defaultCity = "varanasi";
 const pressure = document.querySelector(".pressure");
 const min = document.querySelector(".min");
